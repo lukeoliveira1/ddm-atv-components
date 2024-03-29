@@ -7,8 +7,8 @@ export default StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around",
     gap: 2,
-    backgroundColor: theme.colors.white_green,
     padding: 5,
+    minWidth: 65,
   },
   text: {
     color: theme.colors.green,

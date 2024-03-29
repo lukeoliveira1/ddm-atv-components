@@ -9,7 +9,7 @@ export default StyleSheet.create({
     justifyContent: "space-around",
     marginTop: 10,
     backgroundColor: theme.colors.white,
-    minWidth: '85%',
+    minWidth: "85%",
     minHeight: 60,
   },
   div_avatar: {
@@ -18,6 +18,9 @@ export default StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
     gap: 15,
+  },
+  div_text: {
+    minWidth: 100,
   },
   div_buttons: {
     display: "flex",

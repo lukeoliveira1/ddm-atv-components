@@ -9,12 +9,12 @@ export default function App() {
     <View style={styles.container}>
       <PrincipalCard />
 
-      <SecondaryCard />
-      <SecondaryCard />
-      <SecondaryCard />
-      <SecondaryCard />
-      <SecondaryCard />
-      <SecondaryCard />
+      <SecondaryCard name={"John Doe"} text={"+155"} positive={true} />
+      <SecondaryCard name={"Emily White"} text={"+155"} positive={true} />
+      <SecondaryCard name={"Oliver Brown"} text={"+155"} positive={true} />
+      <SecondaryCard name={"Ava Miller"} text={"-15"} positive={false} />
+      <SecondaryCard name={"Ethan Davis"} text={"-15"} positive={false} />
+      <SecondaryCard name={"Sophia Wilson"} text={"-15"} positive={false} />
 
       <StatusBar style="auto" />
     </View>
