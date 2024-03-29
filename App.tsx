@@ -1,10 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, View } from "react-native";
+import PrincipalCard from "./src/components/principal_card";
+import { theme } from "./src/styles/theme";
+import SecondaryCard from "./src/components/secondary_card";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <PrincipalCard />
+
+      <SecondaryCard />
+      <SecondaryCard />
+      <SecondaryCard />
+      <SecondaryCard />
+      <SecondaryCard />
+      <SecondaryCard />
+
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +24,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: theme.colors.background,
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
